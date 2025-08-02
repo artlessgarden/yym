@@ -9,7 +9,7 @@
 
 ** 键盘图
 
-[[file:yymkeymap.png]]
+[[file:image/yymkeymap.png]]
 
 ** 键盘表（org mode 表格版,第三行与qwerty标准布局有一点不同）
 
@@ -35,7 +35,7 @@ a-z/;共28个键
 
 四码：次笔5个键，延用三码的aeuio
 
-[[file:image.png]]
+[[file:image/image.png]]
 
 *** 如何理解韵母？
 
@@ -65,7 +65,7 @@ a-z/;共28个键
 
 用的无名指按WSZ，OL/键，Q和P也用无名指，右半键整体右移一格，更加对称，小小的改动，手感更好，左右下角没有键，所以第4声放到Q和P。
 
-[[file:keymap.png]]
+[[file:image/keymap.png]]
 
 *** 如何理解8个结构笔画
 
