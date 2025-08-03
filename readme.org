@@ -76,7 +76,7 @@ a-z/;共28个键
 
 ** 测评
 
-[[file:image/image.png]]
+[[file:image/performance.png]]
 
 ** 总结
 
