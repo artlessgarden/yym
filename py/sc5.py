@@ -61,7 +61,7 @@ f2 = 0
 f3 = 0
 # 先输出wlm.txt中定义的字。
 f = open('wlm.txt',encoding='utf-8',mode='r')
-fo = open('jm.txt',encoding='utf-8',mode='w')
+fo = open('jm5.txt',encoding='utf-8',mode='w')
 #fi = open('gcm.txt',encoding='utf-8',mode='w')
 # 记录已占用的编码，输出简码用
 # 为啥绕个圈用dict？快呀。
@@ -86,7 +86,7 @@ n6=0
 n7=0
 for line in f:
     z,fre,m1,m2,m3,m4,m5 = line.strip('\n\r').split('\t')
-    qm[z] = m1+m2+m3+m4
+    qm[z] = m1+m2+m3+m4+m5
     fa += float(fre)
     if z not in wlm:
 # 前两码未被占用，则该字为两码字。
