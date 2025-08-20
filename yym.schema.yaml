@@ -1,0 +1,50 @@
+# Rime schema settings
+# encoding: utf-8
+
+schema:
+  schema_id: yym
+  name: 元韵码
+  version: "1.0"
+
+engine:
+  processors:
+    - ascii_composer
+    - key_binder
+    - recognizer
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - fallback_segmentor
+  translators:
+    - table_translator
+  filters:
+    - uniquifier
+
+speller:
+  alphabet: "[]/;bcdfghjklmnpqrstvwxyzaeuio"
+  auto_select: true
+
+translator:
+  dictionary: yym
+  enable_sentence: false
+  enable_encoder: true
+  encode_commit_history: false
+  enable_user_dict: false
+#  enable_completion: false
+
+menu:
+  page_size: 6
+  alternative_select_labels: ["","","","","",""]
+
+#key_binder:
+#  bindings:
+#    - { when: has_menu, accept: Tab, send: / }
+#    - { when: has_menu, accept: BackSpace, send: ; }
+#    - { when: has_menu, accept: Escape, send: bracketleft }
+#    - { when: has_menu, accept: Return, send: bracketright }

@@ -23,10 +23,10 @@ f = open('info.txt',encoding='utf-8',mode='r')
 fo = open('qm.txt',encoding='utf-8',mode='w')
 for line in f:
 # c1 c2 c3 c4/g1 g2 g3 g4分别对应首首部，首次部，次首部，次次部的笔画/字根。
-    z,fre,s,y,b,h = line.strip('\r\n').split('\t')
+    z,fre,s,y,b,h,y1 = line.strip('\r\n').split('\t')
     m1 = my1[s]
     m2 = my2[y]
-    m3 = my1[b[1]]
+    m3 = my1[b[:2]]
     m4 = my1[b[2]]
     if len(b) == 3:
         m5 = my1[b[2]]
