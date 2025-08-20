@@ -40,9 +40,9 @@ for line in f:
     m4=''
     m5=''
 # 多音字，但第一个字母相同的不重复进行编码。
-    if (z,s,y) not in dyzx:
+    if (z,s,h) not in dyzx:
         fo.write(s)
-    dyzx.append((z,s,y))
+    dyzx.append((z,s,h))
 f.close()
 fo.close()
 print('单字全码已输出至qm.txt')
